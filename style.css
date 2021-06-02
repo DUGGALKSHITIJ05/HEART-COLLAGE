@@ -1,0 +1,868 @@
+*,*::before,*::after{
+    box-sizing: border-box;
+}
+html {
+  height: 100%;
+}
+body{
+    margin: 0;
+    padding: 0;
+    /* background:linear-gradient(rgba( 125, 22, 216, 0.70 ), rgba( 208, 2, 27, 0.80 )); 
+    min-height: 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover; */
+    background-color: white;
+   }
+.heart{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+  }
+  .heartleft{
+    display: flex;
+    /* background-color:#ce1212 */
+    /* align-items: center;
+    justify-content: center; */
+  }
+  .heartright{
+    display: flex;
+    /* background-color:#ce1212; */
+    /* align-items: center;
+    justify-content: center; */
+  }
+  .row3{
+    display: grid;
+    place-content: baseline;
+  }
+  .row2{
+    display: grid;
+    place-content: baseline;
+  }
+  .row1{
+    display: grid;
+    place-content: baseline;
+  }
+  .row4{
+     display: grid;
+     place-content: baseline;
+  }
+ .image{
+   width: 150px;
+   height: 150px;
+   place-self: flex-end;
+   border: 2px solid red;
+   
+ }
+ .image1{
+  width: 150px;
+  height: 150px;
+  border-top-left-radius: 90%;
+  border: 2px solid red;
+  place-self: flex-end;
+  
+ }
+ .image2{
+  width: 150px;
+  height: 150px;
+  border-top-right-radius: 90%;
+  place-self: flex-end;
+  border: 2px solid red;
+  
+  }
+  .image3{
+   width: 150px;
+   height: 150px;
+   border-top-right-radius: 5%; 
+   border-top-left-radius: 10%; 
+   place-self: flex-end;
+   border: 2px solid red;
+   z-index: 1;
+}
+  .image4{
+    width: 150px;
+   height: 150px;
+   border-top-left-radius: 5%; 
+   border-top-right-radius: 10%; 
+   border: 2px solid red;
+   place-self: flex-end;
+   }
+   .images{
+     width: 150px;
+     height: 150px;
+     place-self: flex-end;
+     border: 2px solid red;
+     }
+   .images1{
+    width: 150px;
+     height: 150px;
+     border-top-right-radius: 2%;
+     border-top-left-radius: 100%;
+     border: 2px solid red;
+     place-self: flex-end;
+   }
+   .images2{
+    width: 150px;
+     height: 150px;
+     border-top-left-radius: 5%;
+     border-top-right-radius: 100%;
+     border: 2px solid red;
+     place-self: flex-end;
+   }
+   .image5{
+    width: 150px;
+    height: 150px;
+    border-bottom-left-radius: 100%;
+    border: 2px solid red;
+    place-self: flex-end;
+   }
+   .image6{
+    width: 150px;
+    height: 150px;
+    border-bottom-right-radius: 100%;
+    border: 2px solid red;
+    place-self: flex-end;
+   }
+   .images3{
+    width: 150px;
+    height: 150px;
+    place-self: flex-end;
+    border-bottom-left-radius: 50%;
+    border: 2px solid red;
+   }
+   .images4{
+    width: 150px;
+    height: 150px;
+    border-bottom-right-radius: 50%;
+    border: 2px solid red;
+    place-self: flex-end;
+   }
+   .images5{
+    width: 90px;
+    height: 150px;
+    /* border-top-left-radius: 50% ; */
+    border-bottom-left-radius: 100%;
+    border: 2px solid red;
+    place-self: flex-end;
+   }
+   .images6{
+    width: 90px;
+    height: 150px;
+    /* border-top-left-radius: 50% ; */
+    border-bottom-right-radius: 100%;
+    border: 2px solid red;
+    place-self: flex-start;
+    
+   }
+   .image7{
+     width: 150px;
+     height: 150px;
+     border-bottom-left-radius: 100%;
+     border: 2px solid red;
+    place-self: flex-end;
+   }
+   .image8{
+    width: 150px;
+    height: 150px;
+    border-bottom-right-radius: 100%;
+   place-self: flex-start;
+   border: 2px solid red;
+   }
+
+   @media only screen and (max-width:1100px){
+    .image{
+      width: 150px;
+      height: 150px;
+      place-self: flex-end;
+      border: 2px solid red;
+    }
+    .image1{
+     width: 150px;
+     height: 150px;
+     border-top-left-radius: 90%;
+     border: 2px solid red;
+     place-self: flex-end;
+     
+    }
+    .image2{
+     width: 150px;
+     height: 150px;
+     border-top-right-radius: 90%;
+     place-self: flex-end;
+     border: 2px solid red;
+     
+     }
+     .image3{
+      width: 150px;
+      height: 150px;
+      border-top-right-radius: 5%; 
+      border-top-left-radius: 10%; 
+      place-self: flex-end;
+      border: 2px solid red;
+      z-index: 1;
+   }
+     .image4{
+       width: 150px;
+      height: 150px;
+      border-top-left-radius: 5%; 
+      border-top-right-radius: 10%; 
+      border: 2px solid red;
+      place-self: flex-end;
+      }
+      .images{
+        width: 150px;
+        height: 150px;
+        place-self: flex-end;
+        border: 2px solid red;
+        }
+      .images1{
+       width: 150px;
+        height: 150px;
+        border-top-right-radius: 2%;
+        border-top-left-radius: 100%;
+        border: 2px solid red;
+        place-self: flex-end;
+      }
+      .images2{
+       width: 150px;
+        height: 150px;
+        border-top-left-radius: 5%;
+        border-top-right-radius: 100%;
+        border: 2px solid red;
+        place-self: flex-end;
+      }
+      .image5{
+       width: 150px;
+       height: 150px;
+       border-bottom-left-radius: 100%;
+       border: 2px solid red;
+       place-self: flex-end;
+      }
+      .image6{
+       width: 150px;
+       height: 150px;
+       border-bottom-right-radius: 100%;
+       border: 2px solid red;
+       place-self: flex-end;
+      }
+      .images3{
+       width: 150px;
+       height: 150px;
+       place-self: flex-end;
+       border-bottom-left-radius: 50%;
+       border: 2px solid red;
+      }
+      .images4{
+       width: 150px;
+       height: 150px;
+       border-bottom-right-radius: 50%;
+       border: 2px solid red;
+       place-self: flex-end;
+      }
+      .images5{
+       width: 90px;
+       height: 150px;
+       /* border-top-left-radius: 50% ; */
+       border-bottom-left-radius: 100%;
+       border: 2px solid red;
+       place-self: flex-end;
+      }
+      .images6{
+       width: 90px;
+       height: 150px;
+       /* border-top-left-radius: 50% ; */
+       border-bottom-right-radius: 100%;
+       border: 2px solid red;
+       place-self: flex-start;
+       
+      }
+      .image7{
+        width: 150px;
+        height: 150px;
+        border-bottom-left-radius: 100%;
+        border: 2px solid red;
+       place-self: flex-end;
+      }
+      .image8{
+       width: 150px;
+       height: 150px;
+       border-bottom-right-radius: 100%;
+      place-self: flex-start;
+      border: 2px solid red;
+      }
+   }
+   @media only screen and (max-width:1000px){
+    .image{
+      width: 140px;
+      height: 140px;
+      
+    }
+    .image1{
+     width: 140px;
+     height: 140px;
+    }
+    .image2{
+     width: 140px;
+     height: 140px;
+    }
+     .image3{
+      width: 140px;
+      height: 140px;
+    }
+     .image4{
+       width: 140px;
+      height: 140px;
+    }
+      .images{
+        width: 140px;
+        height: 140px;
+    }
+      .images1{
+       width: 140px;
+        height: 140px;
+    }
+      .images2{
+       width: 140px;
+        height: 140px;
+    }
+      .image5{
+       width: 140px;
+       height: 140px;
+    }
+      .image6{
+       width: 140px;
+       height: 140px;
+    }
+      .images3{
+       width: 140px;
+       height: 140px;
+    }
+      .images4{
+       width: 140px;
+       height: 140px;
+    }
+      .images5{
+       width: 80px;
+       height: 140px;
+       /* border-top-left-radius: 50% ; */
+    }
+      .images6{
+       width: 80px;
+       height: 140px;
+    }
+      .image7{
+        width: 140px;
+        height: 140px;
+      }
+      .image8{
+       width: 140px;
+       height: 140px;
+      }
+   }
+   @media only screen and (max-width:900px){
+    .image{
+      width: 130px;
+      height: 130px;
+      
+    }
+    .image1{
+     width: 130px;
+     height: 130px;
+    }
+    .image2{
+     width: 130px;
+     height: 130px;
+    }
+     .image3{
+      width: 130px;
+      height: 130px;
+    }
+     .image4{
+       width: 130px;
+      height: 130px;
+    }
+      .images{
+        width: 130px;
+        height: 130px;
+    }
+      .images1{
+       width: 130px;
+        height: 130px;
+    }
+      .images2{
+       width: 130px;
+        height: 130px;
+    }
+      .image5{
+       width: 130px;
+       height: 130px;
+    }
+      .image6{
+       width: 130px;
+       height: 130px;
+    }
+      .images3{
+       width: 130px;
+       height: 130px;
+    }
+      .images4{
+       width: 130px;
+       height: 130px;
+    }
+      .images5{
+       width: 80px;
+       height: 130px;
+       /* border-top-left-radius: 50% ; */
+    }
+      .images6{
+       width: 80px;
+       height: 130px;
+       /* border-top-left-radius: 50% ; */
+  }
+      .image7{
+        width: 130px;
+        height: 130px;
+      }
+      .image8{
+       width: 130px;
+       height: 130px;
+      }
+   }
+   @media only screen and (max-width:800px){
+    .image{
+      width: 120px;
+      height: 120px;
+      
+    }
+    .image1{
+     width: 120px;
+     height: 120px;
+    }
+    .image2{
+     width: 120px;
+     height: 120px;
+    }
+     .image3{
+      width: 120px;
+      height: 120px;
+    }
+     .image4{
+       width: 120px;
+      height: 120px;
+    }
+      .images{
+        width: 120px;
+        height: 120px;
+    }
+      .images1{
+       width: 120px;
+        height: 120px;
+    }
+      .images2{
+       width: 120px;
+        height: 120px;
+    }
+      .image5{
+       width: 120px;
+       height: 120px;
+    }
+      .image6{
+       width: 120px;
+       height: 120px;
+    }
+      .images3{
+       width: 120px;
+       height: 120px;
+    }
+      .images4{
+       width: 120px;
+       height: 120px;
+    }
+      .images5{
+       width: 70px;
+       height: 120px;
+       /* border-top-left-radius: 50% ; */
+    }
+      .images6{
+       width: 80px;
+       height: 120px;
+       /* border-top-left-radius: 50% ; */
+       border-bottom-right-radius: 100%;
+       border: 2px solid red;
+       place-self: flex-start;
+       
+      }
+      .image7{
+        width: 120px;
+        height: 120px;
+      }
+      .image8{
+       width: 120px;
+       height: 120px;
+      }
+   }
+   @media only screen and (max-width:700px){
+    .image{
+      width: 100px;
+      height: 100px;
+      
+    }
+    .image1{
+     width: 100px;
+     height: 100px;
+    }
+    .image2{
+     width: 100px;
+     height: 100px;
+    }
+     .image3{
+      width: 100px;
+      height: 100px;
+    }
+     .image4{
+       width: 100px;
+      height: 100px;
+    }
+      .images{
+        width: 100px;
+        height: 100px;
+    }
+      .images1{
+       width: 100px;
+        height: 100px;
+    }
+      .images2{
+       width: 100px;
+        height: 100px;
+    }
+      .image5{
+       width: 100px;
+       height: 100px;
+    }
+      .image6{
+       width: 100px;
+       height: 100px;
+    }
+      .images3{
+       width: 100px;
+       height: 100px;
+    }
+      .images4{
+       width: 100px;
+       height: 100px;
+    }
+      .images5{
+       width: 70px;
+       height: 100px;
+       /* border-top-left-radius: 50% ; */
+    }
+      .images6{
+       width: 70px;
+       height: 100px;
+       /* border-top-left-radius: 50% ; */
+       border-bottom-right-radius: 100%;
+       border: 2px solid red;
+       place-self: flex-start;
+       
+      }
+      .image7{
+        width: 100px;
+        height: 100px;
+      }
+      .image8{
+       width: 100px;
+       height: 100px;
+      }
+   }
+   @media only screen and (max-width:600px){
+    .image{
+      width: 80px;
+      height: 80px;
+      
+    }
+    .image1{
+     width: 80px;
+     height: 80px;
+    }
+    .image2{
+     width: 80px;
+     height: 80px;
+    }
+     .image3{
+      width: 80px;
+      height: 80px;
+    }
+     .image4{
+       width: 80px;
+      height: 80px;
+    }
+      .images{
+        width: 80px;
+        height: 80px;
+    }
+      .images1{
+       width: 80px;
+        height: 80px;
+    }
+      .images2{
+       width: 80px;
+        height: 80px;
+    }
+      .image5{
+       width: 80px;
+       height: 80px;
+    }
+      .image6{
+       width: 80px;
+       height: 80px;
+    }
+      .images3{
+       width: 80px;
+       height: 80px;
+    }
+      .images4{
+       width: 80px;
+       height: 80px;
+    }
+      .images5{
+       width: 60px;
+       height: 80px;
+       /* border-top-left-radius: 50% ; */
+    }
+      .images6{
+       width: 60px;
+       height: 80px;
+       /* border-top-left-radius: 50% ; */
+       border-bottom-right-radius: 100%;
+       border: 2px solid red;
+       place-self: flex-start;
+       
+      }
+      .image7{
+        width: 80px;
+        height: 80px;
+      }
+      .image8{
+       width: 80px;
+       height: 80px;
+      }
+   }
+   @media only screen and (max-width:500px){
+    .image{
+      width: 70px;
+      height: 70px;
+      
+    }
+    .image1{
+     width: 70px;
+     height: 70px;
+    }
+    .image2{
+     width: 70px;
+     height: 70px;
+    }
+     .image3{
+      width: 70px;
+      height: 70px;
+    }
+     .image4{
+       width: 70px;
+      height: 70px;
+    }
+      .images{
+        width: 70px;
+        height: 70px;
+    }
+      .images1{
+       width: 70px;
+        height: 70px;
+    }
+      .images2{
+       width: 70px;
+        height: 70px;
+    }
+      .image5{
+       width: 70px;
+       height: 70px;
+    }
+      .image6{
+       width: 70px;
+       height: 70px;
+    }
+      .images3{
+       width: 70px;
+       height: 70px;
+    }
+      .images4{
+       width: 70px;
+       height: 70px;
+    }
+      .images5{
+       width: 50px;
+       height: 70px;
+       /* border-top-left-radius: 50% ; */
+    }
+      .images6{
+       width: 50px;
+       height: 70px;
+       /* border-top-left-radius: 50% ; */
+       border-bottom-right-radius: 100%;
+       border: 2px solid red;
+       place-self: flex-start;
+       
+      }
+      .image7{
+        width: 70px;
+        height: 70px;
+      }
+      .image8{
+       width: 70px;
+       height: 70px;
+      }
+   }
+   @media only screen and (max-width:400px){
+    .image{
+      width: 55px;
+      height: 55px;
+      
+    }
+    .image1{
+     width: 55px;
+     height: 55px;
+    }
+    .image2{
+     width: 55px;
+     height: 55px;
+    }
+     .image3{
+      width: 55px;
+      height: 55px;
+    }
+     .image4{
+       width: 55px;
+      height: 55px;
+    }
+      .images{
+        width: 55px;
+        height: 55px;
+    }
+      .images1{
+       width: 55px;
+        height: 55px;
+    }
+      .images2{
+       width: 55px;
+        height: 55px;
+    }
+      .image5{
+       width: 55px;
+       height: 55px;
+    }
+      .image6{
+       width: 55px;
+       height: 55px;
+    }
+      .images3{
+       width: 55px;
+       height: 55px;
+    }
+      .images4{
+       width: 55px;
+       height: 55px;
+    }
+      .images5{
+       width: 35px;
+       height: 55px;
+       /* border-top-left-radius: 50% ; */
+    }
+      .images6{
+       width: 35px;
+       height: 55px;
+       /* border-top-left-radius: 50% ; */
+       border-bottom-right-radius: 100%;
+       border: 2px solid red;
+       place-self: flex-start;
+       
+      }
+      .image7{
+        width: 55px;
+        height: 55px;
+      }
+      .image8{
+       width: 55px;
+       height: 55px;
+      }
+   }
+   @media only screen and (max-width:300px){
+    .image{
+      width: 35px;
+      height: 35px;
+      
+    }
+    .image1{
+     width: 35px;
+     height: 35px;
+    }
+    .image2{
+     width: 35px;
+     height: 35px;
+    }
+     .image3{
+      width: 35px;
+      height: 35px;
+    }
+     .image4{
+       width: 35px;
+      height: 35px;
+    }
+      .images{
+        width: 35px;
+        height: 35px;
+    }
+      .images1{
+       width: 35px;
+        height: 35px;
+    }
+      .images2{
+       width: 35px;
+        height: 35px;
+    }
+      .image5{
+       width: 35px;
+       height: 35px;
+    }
+      .image6{
+       width: 35px;
+       height: 35px;
+    }
+      .images3{
+       width: 35px;
+       height: 35px;
+    }
+      .images4{
+       width: 35px;
+       height: 35px;
+    }
+      .images5{
+       width: 20px;
+       height: 35px;
+       /* border-top-left-radius: 50% ; */
+    }
+      .images6{
+       width: 20px;
+       height: 35px;
+       /* border-top-left-radius: 50% ; */
+       border-bottom-right-radius: 100%;
+       border: 2px solid red;
+       place-self: flex-start;
+       
+      }
+      .image7{
+        width: 35px;
+        height: 35px;
+      }
+      .image8{
+       width: 35px;
+       height: 35px;
+      }
+   }
